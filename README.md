@@ -10,6 +10,17 @@ Super Brain is a folder instead of a conversation. Sources compile into a linked
 
 It is an adaptation of [Andrej Karpathy's LLM knowledge base method](https://x.com/karpathy/status/2039805659525644595), with the parts a working product builder actually needs bolted on.
 
+## The Product Builder OS
+
+Super Brain is one half of a larger system.
+
+| Layer | What it does |
+|---|---|
+| Super Brain | Keeps your context, knowledge, projects and decisions, so the agent does not start every conversation from zero. |
+| [Superhero Skills](https://github.com/superhero-tech/superhero-skills) | Give the agent focused, tested ways to work through product problems with you. |
+
+Together, these two layers make up the Product Builder OS.
+
 ## Setup
 
 ```
